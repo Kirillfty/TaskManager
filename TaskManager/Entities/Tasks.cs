@@ -17,6 +17,9 @@ namespace TaskManager.Entities
         public DateTime CreateDate { get; set; }
 
         public bool IsCompleted { get; set; } = false;
+        public int UserId {  get; set; }
+
+        [ForeignKey(nameof(UserId))] public User user { get; set; }
 
     }
 }

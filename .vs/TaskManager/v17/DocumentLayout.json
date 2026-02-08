@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\kiril\\Documents\\TaskManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|c:\\users\\kiril\\documents\\taskmanager\\taskmanager\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|c:\\users\\kiril\\documents\\taskmanager\\taskmanager\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|c:\\users\\kiril\\documents\\taskmanager\\taskmanager\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|c:\\users\\kiril\\documents\\taskmanager\\taskmanager\\migrations\\20260208151920_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\migrations\\20260208151920_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|c:\\users\\kiril\\documents\\taskmanager\\taskmanager\\migrations\\applicationdbmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\migrations\\applicationdbmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|c:\\users\\kiril\\documents\\taskmanager\\taskmanager\\repository\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E30E4528-29D1-423A-A5FB-5E67519328D7}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\repository\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +39,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Repository\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Repository\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Repository\\TaskRepository.cs",
+              "RelativeToolTip": "TaskManager\\Repository\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T15:20:13.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDBModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Migrations\\ApplicationDBModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Migrations\\ApplicationDBModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Migrations\\ApplicationDBModelSnapshot.cs",
+              "RelativeToolTip": "TaskManager\\Migrations\\ApplicationDBModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T15:19:30.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260208151920_updateModels.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Migrations\\20260208151920_updateModels.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Migrations\\20260208151920_updateModels.cs",
+              "ToolTip": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Migrations\\20260208151920_updateModels.cs",
+              "RelativeToolTip": "TaskManager\\Migrations\\20260208151920_updateModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T15:19:23.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Entities\\Tasks.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Entities\\Tasks.cs",
+              "ToolTip": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Entities\\Tasks.cs",
+              "RelativeToolTip": "TaskManager\\Entities\\Tasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T15:17:14.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Entities\\User.cs",
+              "RelativeToolTip": "TaskManager\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T15:13:42.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Documents\\TaskManager\\TaskManager\\Repository\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "TaskManager\\Repository\\ITaskRepository.cs",
