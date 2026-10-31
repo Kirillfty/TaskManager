@@ -6,7 +6,7 @@ using TaskManager;
 using TaskManager.Entities;
 using TaskManager.Repository;
 
-namespace ClubsBack.Controllers
+namespace TaskManager.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -21,11 +21,9 @@ namespace ClubsBack.Controllers
             _userRepository = userRepository;
         }
 
-        public record LoginRequest([Required] string Login, [Required] string Password);
+        public record LoginRequest(string Login, string Password);
 
-        public record RegisterRequest(
-            [Required] string Login,
-            [Required] string Password);
+        public record RegisterRequest(string Login, string Password);
 
         public record TokenPair(string AccessToken, string RefreshToken, string Role);
 
@@ -61,8 +59,8 @@ namespace ClubsBack.Controllers
         [HttpPost("register")]
         public ActionResult<TokenPair> Register([FromBody] RegisterRequest registerRequest)
         {
-
-            if (_userRepository.GetByLogin(registerRequest.Login) != null)
+            var createdUser = _userRepository.GetByLogin(registerRequest.Login);
+            if (createdUser is not null)
             {
                 return BadRequest("user already exist");
             }
@@ -74,12 +72,12 @@ namespace ClubsBack.Controllers
                 Role = "user"
             };
 
-            int? result = _userRepository.CreateUser(newUser);
+            int? newUserData = _userRepository.CreateUser(newUser);
 
-            if (result == null)
+            if (newUserData == null)
                 return BadRequest("User cannot be created");
 
-            newUser.Id = result.Value;
+            newUser.Id = newUserData.Value;
 
             string refreshToken = Guid.NewGuid().ToString();
 

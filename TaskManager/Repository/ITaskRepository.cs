@@ -1,18 +1,19 @@
 ﻿using TaskManager.Entities;
-
+using System.Threading.Tasks;
 namespace TaskManager.Repository
 {
     public interface ITaskRepository
     {
-        public List<Tasks> GetAll();
+        public Task<List<TaskItem>> GetAll(string?  status);
+        
+        public Task<TaskItem?> GetById(int id);
 
-        public Tasks? GetById(int id);
+        public Task<bool> Create(TaskItem taskItem);
 
-        public bool Create(Tasks task);
+        public bool Update(TaskItem taskItem);
 
-        public bool Update(Tasks task);
-
-        public bool Delete(int id);
+        public Task<bool> Delete(int id);
+        public Task<List<TaskItem>> GetAllTaskByUser(int userId,CancellationToken ct);
 
     }
 }

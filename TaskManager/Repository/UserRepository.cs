@@ -6,7 +6,6 @@ namespace TaskManager.Repository
     public class UserRepository : IUserRepository
     {
         public ApplicationDB _context;
-
         public UserRepository(ApplicationDB context)
         {
             _context = context;
@@ -23,6 +22,7 @@ namespace TaskManager.Repository
             {
                 return null;
             }
+            
             return u.Id;
         }
 
@@ -34,7 +34,6 @@ namespace TaskManager.Repository
                 _context.Remove(user);
                 _context.SaveChanges();
                 return true;
-                
             }
             return false;
         }

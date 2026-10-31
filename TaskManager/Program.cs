@@ -1,4 +1,5 @@
 
+using System.Reflection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -14,7 +15,8 @@ namespace TaskManager
         {
             var builder = WebApplication.CreateBuilder(args);
            
-
+            builder.Services.AddMediatR(cfg =>
+                cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
             string conn = builder.Configuration.GetConnectionString("Default");
             builder.Services.AddDbContext<ApplicationDB>(options => options.UseNpgsql(conn));
             builder.Services.AddTransient<IUserRepository, UserRepository>();
@@ -54,7 +56,14 @@ namespace TaskManager
 
 
             var app = builder.Build();
-
+            
+            if (app.Environment.IsDevelopment())
+            {
+                using var scope = app.Services.CreateScope();
+                var db = scope.ServiceProvider.GetRequiredService<ApplicationDB>();
+                db.Database.Migrate();
+            }
+            
             if (app.Environment.IsDevelopment()) {
                 app.UseSwagger();
                 app.UseSwaggerUI();

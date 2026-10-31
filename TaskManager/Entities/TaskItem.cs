@@ -5,20 +5,19 @@ namespace TaskManager.Entities
 {
     
     [Table("Tasks")]
-    public class Tasks
+    public class TaskItem
     {
         [Key]
         public int Id { get; set; }
 
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
 
-        public string Description { get; set; }
+        public string Description { get; set; } = string.Empty;
 
         public DateTime CreateDate { get; set; }
-
-        public bool IsCompleted { get; set; } = false;
-        public int UserId {  get; set; }
-
+        
+        public string Status { get; set; } = "Pending";
+        public int UserId { get; set; }
         [ForeignKey(nameof(UserId))] public User user { get; set; }
 
     }

@@ -1,0 +1,48 @@
+.card-task {
+  width:90%;
+  background-color: #ffffff;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+body{
+  background-color: rgb(32, 32, 32);
+}
+*{
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.delete-btn {
+  width:100%;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.edit-btn {
+  width:100%;
+  background-color: #4d91ff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.add-btn {
+  width:100%;
+  background-color: #6eff4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.add-btn, .edit-btn, .delete-btn {
+  margin-top: 1px;
+}

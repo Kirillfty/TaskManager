@@ -22,8 +22,8 @@ namespace TaskManager.Controllers
             return _repository.GetAll();
         }
 
-        [HttpGet("{id:guid}")]
-        public User? GetById([FromBody]int id)
+        [HttpGet("{id:int}")]
+        public User? GetById([FromRoute]int id)
         {
             return _repository.Get(id);
         }
