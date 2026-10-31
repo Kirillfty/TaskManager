@@ -16,25 +16,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="babe7aa2-a593-43ff-912d-28aea2a28a33" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/ApplicationDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/ApplicationDB.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Controllers/TaskController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Entities/Tasks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Entities/TaskItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Entities/UserRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Entities/UserRole.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Migrations/20260131114311_Init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Migrations/20260131114311_Init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Migrations/20260208151920_updateModels.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Migrations/20260208151920_updateModels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Migrations/ApplicationDBModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Migrations/ApplicationDBModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Repository/ITaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Repository/ITaskRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Repository/TaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Repository/TaskRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/Repository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Repository/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/TaskManager.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/TaskManager.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/User.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +154,7 @@
       <updated>1791677239126</updated>
       <workItem from="1791677242611" duration="6671000" />
       <workItem from="1792230852222" duration="14670000" />
-      <workItem from="1792841389890" duration="7086000" />
+      <workItem from="1792841389890" duration="8761000" />
     </task>
     <servers />
   </component>

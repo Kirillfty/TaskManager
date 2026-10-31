@@ -2,6 +2,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import axios from 'axios'
+import {btn} from './functions.ts'
 function AddTask(){
   const accessToken = localStorage.getItem('accessToken');
   axios.post('https://localhost:7172/api/Task',{
@@ -37,8 +38,8 @@ const taskData = ref({
         <option value="Done">Done</option>
         <option value="Complete">Completed</option>
       </select>
-      <button @click="AddTask()" class="add-btn">Добавить</button>
-      <button @click="$emit('close')" class="delete-btn">Закрыть</button>
+      <button @click="AddTask(),btn()" class="add-btn">Добавить</button>
+      <button @click="$emit('close'),btn()" class="delete-btn" >Закрыть</button>
     </div>
   </div>
 </template>

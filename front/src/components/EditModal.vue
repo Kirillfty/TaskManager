@@ -1,6 +1,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import {btn} from './functions'
 import axios from 'axios'
 const props = defineProps({
   show: Boolean,
@@ -38,8 +39,8 @@ defineEmits(['close'])
         <option value="Done">Done</option>
         <option value="Complete">Completed</option>
       </select>
-      <button @click="$emit('close')" class="delete-btn">Закрыть</button>
-      <button @click="Edit()" class="edit-btn">Изменить</button>
+      <button @click="$emit('close'),btn()" class="delete-btn">Закрыть</button>
+      <button @click="Edit(),btn()" class="edit-btn">Изменить</button>
     </div>
   </div>
 </template>
